@@ -22,6 +22,18 @@ A imagem do Neko é uma apresentação editada com IA a partir da foto de refer�
 
 - [Pacote de tema para importar no relógio](Neko_Clima_BR_Demo.stheme)
 - [Projeto completo: fontes, artes, prévias e documentação (ZIP)](Neko_Weather_Clock_Source.zip)
+- [Guia completo para IAs e contribuidores](AI_GUIDE.md)
+
+### Reproduzir a compilação
+
+Extraia o ZIP, abra um terminal na pasta do projeto e execute:
+
+```text
+python -m pip install -r requirements.txt
+python scripts/build_theme.py
+```
+
+O arquivo `.stheme` e as prévias serão gerados localmente. Para arquitetura, estrutura dos arquivos, configuração de localização, limites do dispositivo e cuidados de privacidade, consulte o [AI_GUIDE.md](AI_GUIDE.md).
 
 O `.stheme` é apenas um tema visual, não é firmware. Instale em **Display → Theme clocks** em um SmallTV Mod compatível. Faça uma cópia do tema atual antes de trocar.
 
