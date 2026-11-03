@@ -2,6 +2,8 @@
 
 Este documento fornece o contexto do projeto sem depender do histórico privado de uma conversa. Leia-o antes de sugerir ou fazer alterações. A fonte completa, com a estrutura original de diretórios, está em `Neko_Weather_Clock_Source.zip`.
 
+Antes de orientar alguém a usar o relógio, leia também `FIRMWARE_MIGRATION.md`: o tema depende do SmallTV Mod e não instala nem substitui o firmware.
+
 ## Objetivo e escopo
 
 O projeto cria um tema visual em português brasileiro para relógios GeekMagic/SmallTV com tela 240 × 240 e firmware SmallTV Mod compatível. O dispositivo confirmado pelo responsável é um ESP8266EX. O resultado distribuível é `Neko_Clima_BR_Demo.stheme`; isso é um pacote de tema, não firmware.
@@ -48,9 +50,12 @@ Para testar outra localização, copie `config.example.json` para `config.local.
 
 - Os valores exibidos na imagem de apresentação são ilustrativos, não medições ao vivo.
 - O repositório contém tema e ferramentas de geração; não contém firmware personalizado.
+- O fluxo físico documentado é: firmware original GeekMagic → firmware SmallTV Mod apropriado ao modelo → importação e seleção do tema Neko. A migração, a escolha do binário e a recuperação pertencem ao firmware upstream; consulte `FIRMWARE_MIGRATION.md` e a documentação oficial antes de orientar uma gravação.
+- Para rollback, oriente o leitor a preservar antes a cópia do firmware da própria unidade e a seguir o procedimento oficial da placa exata. Não procure nem distribua uma imagem original genérica de origem ou compatibilidade não verificadas.
 - A aparência e a atualização meteorológica no relógio dependem do firmware, da configuração do próprio relógio, da rede e do serviço meteorológico usados pelo dispositivo.
 - A imagem de referência original tem restrição de reutilização indicada nos avisos de licença.
 
 ## Contexto de publicação
 
 Este é um portfólio de Vibe Coding assistido por IA e dirigido por uma pessoa. O objetivo é tornar o processo e o artefato analisáveis e reproduzíveis. O histórico pessoal do chat não é necessário nem deve ser copiado para o repositório.
+
