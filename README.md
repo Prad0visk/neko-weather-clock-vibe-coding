@@ -52,12 +52,3 @@ Código: MIT. Artes geradas para o projeto: CC BY 4.0. Codificador STI adaptado:
 
 An AI-assisted, human-directed Vibe Coding portfolio project: a Portuguese Neko weather theme for a 240×240 ESP8266 SmallTV clock, with a reproducible builder, privacy-safe demo package, and complete source bundle.
 
-
-
-## Licenças
-
-Código: MIT. Artes geradas para o projeto: CC BY 4.0. Codificador STI adaptado: WTFPL v2. A imagem de referência GeekMagic foi fornecida pelo responsável pelo projeto e não recebe licença de reutilização. Consulte os avisos dentro do ZIP.
-
-## English summary
-
-An AI-assisted, human-directed Vibe Coding portfolio project: a Portuguese Neko weather theme for a 240×240 ESP8266 SmallTV clock, with a reproducible builder, privacy-safe demo package, and complete source bundle.
